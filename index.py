@@ -53,5 +53,3 @@ class Income_Tax:
       tax_value = self._tax_rate()
       return f'Seu valor de imposto e {round(tax_value,2)}'
   
-teste = Income_Tax(5000)
-print(teste.execute())
